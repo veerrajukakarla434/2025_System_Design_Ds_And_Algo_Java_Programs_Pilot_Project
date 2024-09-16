@@ -4,7 +4,7 @@ package com.vkakarla.codingproblems.leetcode;
  * Largest Sum Contiguous Subarray (Kadane’s Algorithm)
  * Given an array arr[] of size N. The task is to find the sum of the contiguous subarray within a arr[] with the largest sum. 
  */
-public class P1MaximumSubSubArray {
+public class P1MaximumSumSubArray {
 
 	public static void main(String[] args) {
 		
