@@ -23,9 +23,7 @@ public class P2BuyAndSellAStock {
 	public static void main(String[] args) {
 
 		int prices[] = { 7, 1, 5, 3, 6, 4 };
-
 		System.out.println("Maximum Profit :" + maxProfit(prices));
-
 	}
 
 	public static int maxProfit(int[] a) {
@@ -34,11 +32,9 @@ public class P2BuyAndSellAStock {
 
 		for (int i = 1; i < a.length; i++) {
 			int profit = a[i] - minSoFar;
-
 			if (ans < profit) {
 				ans = profit;
 			}
-
 			if (minSoFar > a[i]) {
 				minSoFar = a[i];
 			}
