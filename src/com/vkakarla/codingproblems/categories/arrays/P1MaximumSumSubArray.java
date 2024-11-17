@@ -29,7 +29,6 @@ public class P1MaximumSumSubArray {
 
 			if (currentSum > maxSoFar) {
 				maxSoFar = currentSum;
-				System.out.println(" a values  "+ a[i]);
 			}
 		}
 
