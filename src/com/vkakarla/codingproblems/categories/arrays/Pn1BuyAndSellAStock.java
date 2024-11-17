@@ -18,7 +18,7 @@ package com.vkakarla.codingproblems.categories.arrays;
 	Explanation: Since the array is in decreasing order, no possible way exists to solve the problem.
  * 
  */
-public class P2BuyAndSellAStock {
+public class Pn1BuyAndSellAStock {
 
 	public static void main(String[] args) {
 
