@@ -1,5 +1,6 @@
 # High Level Design - Basics
 
+* How internet works high level is mentioned below process
 #### Internet Corporation for Assigned Names and Numbers (ICANN)
 
 ![image](https://github.com/user-attachments/assets/50124c06-caee-4162-a7ed-d034212623bb)
