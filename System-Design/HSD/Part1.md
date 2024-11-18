@@ -1,7 +1,15 @@
 # High Level Design - Basics
 
-* How internet works high level is mentioned below process
-* We need to buy IP (static ip) from internet service providers, So IP address will not change while calling domain name. 
+* How internet works high level is mentioned below process while web site creation
+
+![image](https://github.com/user-attachments/assets/8af3eec6-942c-40fd-99fd-80aac8751fb4)
+
+
+![image](https://github.com/user-attachments/assets/e7a61ce1-4414-4aa8-856b-b7b12566b3a4)
+
+
+* We need to buy IP (static ip) from internet service providers, So IP address will not change while calling domain name.
+* 
 #### Internet Corporation for Assigned Names and Numbers (ICANN)
 
 ![image](https://github.com/user-attachments/assets/50124c06-caee-4162-a7ed-d034212623bb)
