@@ -11,8 +11,15 @@ public class P2ShiftArrayWithSameOrder {
 		for(int i=0; i<original.length;i++) {
 		     reordered[i] = original[(shift+i)%original.length];	
 	     }
+		
 	  for(int a : reordered) {
-		  System.out.print(" "+a);
+		  System.out.print(a+" ");
 	  }
 	}
+	
+	/*  
+	 *  Original:  1 2 3 4 5 6 
+	 *  output  :  4 5 6 1 2 3
+	 * */
+	
 }
