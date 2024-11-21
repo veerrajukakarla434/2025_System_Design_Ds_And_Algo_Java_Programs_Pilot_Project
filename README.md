@@ -84,20 +84,23 @@
     * Randomized Algorithms (Quickselect, Randomized QuickSort)
     * Monte Carlo and Las Vegas Algorithms
 # List of Data structures
-```java
+
 1. Array
-Description: A fixed-size, indexed collection of elements.
-Key Methods: Arrays are part of the core language, so they rely on standard array syntax.
+   * Description: A fixed-size, indexed collection of elements.
+   * Key Methods: Arrays are part of the core language, so they rely on standard array syntax.
+```java
 Example:
 java
 Copy code
 int[] numbers = {1, 2, 3, 4, 5};
 System.out.println("Element at index 2: " + numbers[2]); // Accessing an element
 numbers[2] = 10; // Modifying an element
+```
 
 2. ArrayList
-Description: A resizable array from the java.util package.
-Key Methods: add(), get(), set(), remove(), size(), contains()
+   * Description: A resizable array from the java.util package.
+   * Key Methods: add(), get(), set(), remove(), size(), contains()
+```java
 Example:
 java
 Copy code
@@ -109,9 +112,12 @@ list.add("Python");
 System.out.println("List: " + list);
 list.remove("Python");
 System.out.println("Contains Java? " + list.contains("Java"));
+```
+
 3. LinkedList
-Description: Doubly-linked list implementation of List and Deque.
-Key Methods: addFirst(), addLast(), removeFirst(), removeLast(), getFirst(), getLast()
+   * Description: Doubly-linked list implementation of List and Deque.
+   * Key Methods: addFirst(), addLast(), removeFirst(), removeLast(), getFirst(), getLast()
+```java
 Example:
 java
 Copy code
@@ -124,9 +130,12 @@ linkedList.addFirst(0);
 System.out.println("LinkedList: " + linkedList);
 linkedList.removeLast();
 System.out.println("After removal: " + linkedList);
+```
+
 4. HashMap
-Description: A key-value pair mapping; part of Map.
-Key Methods: put(), get(), remove(), containsKey(), containsValue(), keySet()
+   * Description: A key-value pair mapping; part of Map.
+   * Key Methods: put(), get(), remove(), containsKey(), containsValue(), keySet()
+```java
 Example:
 java
 Copy code
@@ -138,9 +147,12 @@ map.put("Bob", 30);
 System.out.println("Age of Alice: " + map.get("Alice"));
 map.remove("Bob");
 System.out.println("Contains Bob? " + map.containsKey("Bob"));
+```
+
 5. HashSet
-Description: A collection that contains no duplicate elements.
-Key Methods: add(), remove(), contains(), isEmpty(), size()
+   * Description: A collection that contains no duplicate elements.
+   * Key Methods: add(), remove(), contains(), isEmpty(), size()
+```java
 Example:
 java
 Copy code
@@ -152,9 +164,11 @@ set.add("Python");
 set.add("Java"); // Duplicate ignored
 System.out.println("Set: " + set);
 System.out.println("Contains Python? " + set.contains("Python"));
+```
 6. Stack
-Description: A last-in, first-out (LIFO) stack.
-Key Methods: push(), pop(), peek(), isEmpty()
+   * Description: A last-in, first-out (LIFO) stack.
+   * Key Methods: push(), pop(), peek(), isEmpty()
+```java
 Example:
 java
 Copy code
@@ -166,9 +180,12 @@ stack.push(20);
 System.out.println("Top Element: " + stack.peek());
 stack.pop();
 System.out.println("After pop: " + stack);
+```
+
 7. Queue
-Description: A first-in, first-out (FIFO) collection.
-Key Methods: add(), remove(), peek(), poll()
+   * Description: A first-in, first-out (FIFO) collection.
+   * Key Methods: add(), remove(), peek(), poll()
+```java
 Example:
 java
 Copy code
@@ -181,9 +198,11 @@ queue.add("Bob");
 System.out.println("Front Element: " + queue.peek());
 queue.remove();
 System.out.println("After removal: " + queue);
+```
 8. PriorityQueue
-Description: A queue that orders elements based on natural ordering or a comparator.
-Key Methods: add(), peek(), poll()
+   * Description: A queue that orders elements based on natural ordering or a comparator.
+   * Key Methods: add(), peek(), poll()
+```java
 Example:
 java
 Copy code
@@ -196,9 +215,11 @@ pq.add(8);
 System.out.println("Top Element: " + pq.peek()); // Smallest element
 pq.poll(); // Removes the smallest element
 System.out.println("After poll: " + pq);
+```
 9. TreeSet
-Description: A sorted set based on a TreeMap.
-Key Methods: add(), remove(), first(), last(), contains()
+   Description: A sorted set based on a TreeMap.
+   Key Methods: add(), remove(), first(), last(), contains()
+```java
 Example:
 java
 Copy code
@@ -210,9 +231,11 @@ treeSet.add(5);
 treeSet.add(20);
 System.out.println("TreeSet: " + treeSet);
 System.out.println("First Element: " + treeSet.first());
+```
 10. TreeMap
-Description: A sorted map based on keys.
-Key Methods: put(), get(), remove(), firstKey(), lastKey()
+   * Description: A sorted map based on keys.
+   * Key Methods: put(), get(), remove(), firstKey(), lastKey()
+```java
 Example:
 java
 Copy code
@@ -223,9 +246,11 @@ treeMap.put("Alice", 25);
 treeMap.put("Bob", 30);
 System.out.println("First Key: " + treeMap.firstKey());
 System.out.println("TreeMap: " + treeMap);
+```
 11. Deque (Double-Ended Queue)
-Description: A queue that allows insertion/removal from both ends.
-Key Methods: addFirst(), addLast(), removeFirst(), removeLast(), peekFirst(), peekLast()
+     *  Description: A queue that allows insertion/removal from both ends.
+     *  Key Methods: addFirst(), addLast(), removeFirst(), removeLast(), peekFirst(), peekLast()
+```java       
 Example:
 java
 Copy code
