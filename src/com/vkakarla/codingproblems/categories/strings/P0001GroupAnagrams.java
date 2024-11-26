@@ -13,11 +13,8 @@ public class P0001GroupAnagrams {
 		
 		String[] words = { "ace", "cea", "crew", "wrec", "werc", "yo", "Oy", "act", "cat", "tac", "foo", "oof", "ofo","flop", "olfp" };
 		List<String> wordList = Arrays.asList(words);
-		//List<List<String>> result = groupAnagrams(wordList);
-		
-		
+		//List<List<String>> result1 = groupAnagrams(wordList);
 		List<List<String>> result = groupAnagrams1(words);
-		
 		// result.forEach(t -> System.out.println(t + " "));
 		// OR
 		for (List<String> list : result) {
