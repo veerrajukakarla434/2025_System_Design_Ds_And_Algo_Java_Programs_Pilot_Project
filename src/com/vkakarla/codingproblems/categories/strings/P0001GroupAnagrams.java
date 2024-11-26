@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-public class P1GroupAnagrams {
+public class P0001GroupAnagrams {
 
 	public static void main(String[] args) {
 		

@@ -3,7 +3,7 @@ package com.vkakarla.codingproblems.categories.strings;
 import java.util.HashMap;
 import java.util.Map;
 
-public class P2CountDulpicateWordsFromString {
+public class P0002CountDulpicateWordsFromString {
 
 	public static void main(String[] args) {
 		
