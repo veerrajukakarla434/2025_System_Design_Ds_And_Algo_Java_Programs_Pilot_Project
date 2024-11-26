@@ -11,7 +11,7 @@ public class P0001GroupAnagrams {
 
 	public static void main(String[] args) {
 		
-		String[] words = { "ace", "cea", "crew", "wrec", "werc", "yo", "oy", "act", "cat", "tac", "foo", "oof", "ofo","flop", "olfp" };
+		String[] words = { "ace", "cea", "crew", "wrec", "werc", "yo", "Oy", "act", "cat", "tac", "foo", "oof", "ofo","flop", "olfp" };
 		List<String> wordList = Arrays.asList(words);
 		//List<List<String>> result = groupAnagrams(wordList);
 		
@@ -56,7 +56,7 @@ public class P0001GroupAnagrams {
             // Sort the string to get the key
             char[] chars = s.toCharArray();
             Arrays.sort(chars);
-            String key = new String(chars);
+            String key = new String(chars).toLowerCase();
             
             // Add to the appropriate group
             map.putIfAbsent(key, new ArrayList<>());
