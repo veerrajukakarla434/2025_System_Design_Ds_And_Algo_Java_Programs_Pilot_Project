@@ -1,6 +1,6 @@
 package com.vkakarla.codingproblems.categories.arrays;
 
-public class P2ShiftArrayWithSameOrder {
+public class P0002ShiftArrayWithSameOrder {
 
 	public static void main(String[] args) {
 		

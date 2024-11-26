@@ -3,7 +3,7 @@ package com.vkakarla.codingproblems.categories.arrays;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class P30001TwoNumberSum {
+public class P0003TwoNumberSum {
 
 	public static void main(String[] args) {
 
