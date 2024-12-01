@@ -3,16 +3,16 @@ package com.vkakarla.codingproblems.categories.strings;
 public class P0003PalindromeCheck {
 
 	public static void main(String[] args) {
-		System.out.println(isPalindrome("racecar")); // true
-		System.out.println(isPalindrome("hello")); // false
+		System.out.println(isPalindrome("raceCar")); // true
+		//System.out.println(isPalindrome("hello")); // false
 		
-		System.out.println(isPalindrome1("racecar")); // true
-		System.out.println(isPalindrome1("hello")); // false
+		//System.out.println(isPalindrome1("racecar")); // true
+		//System.out.println(isPalindrome1("hello")); // false
 	}
 	
 	 public static boolean isPalindrome(String str) {
 	        int left = 0, right = str.length() - 1;
-	        
+	        str=str.toLowerCase();
 	        while (left < right) {
 	            if (str.charAt(left) != str.charAt(right)) {
 	                return false;
