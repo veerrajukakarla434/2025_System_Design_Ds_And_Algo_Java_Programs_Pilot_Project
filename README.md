@@ -436,6 +436,79 @@ Solve: Sudoku solver, N-Queens problem, generating permutations.
       
 # List of Data structures
 
+Let me explain each data structure and when to use them:
+
+Arrays
+
+
+Fixed-size collection of elements
+Fast access by index
+Best for: When you know the size won't change and need quick access by position
+Memory efficient but inflexible
+
+
+ArrayList
+
+
+Dynamic-size array list
+Automatically grows as needed
+Best for: When you need a resizable list with fast access by index
+More flexible than arrays but slightly more memory overhead
+
+
+LinkedList
+
+
+Doubly-linked list implementation
+Fast insertion/deletion at both ends
+Best for: Frequent insertions/deletions, especially at the beginning/end
+Uses more memory than ArrayList but better for frequent modifications
+
+
+HashMap
+
+
+Stores key-value pairs
+Very fast access, insertion, and deletion
+Best for: When you need to associate values with unique keys
+Great for lookups and caching
+
+
+HashSet
+
+
+Collection of unique elements
+Very fast checking for duplicates
+Best for: When you need to ensure uniqueness of elements
+Perfect for removing duplicates from a collection
+
+
+Stack
+
+
+Last-In-First-Out (LIFO) structure
+Good for tracking state or processing nested structures
+Best for: Undo/redo operations, parsing expressions, backtracking algorithms
+
+
+Queue
+
+
+First-In-First-Out (FIFO) structure
+Good for processing elements in order
+Best for: Task scheduling, breadth-first search, buffer management
+
+Common Operations Time Complexity:
+CopyData Structure | Access | Search | Insertion | Deletion
+Array         | O(1)   | O(n)   | O(n)      | O(n)
+ArrayList     | O(1)   | O(n)   | O(n)      | O(n)
+LinkedList    | O(n)   | O(n)   | O(1)      | O(1)
+HashMap       | O(1)   | O(1)   | O(1)      | O(1)
+HashSet       | N/A    | O(1)   | O(1)      | O(1)
+Stack         | O(n)   | O(n)   | O(1)      | O(1)
+Queue         | O(n)   | O(n)   | O(1)      | O(1)
+Would you like me to explain any of these data structures in more detail or provide additional examples for specific use cases?
+
  ![image](https://github.com/user-attachments/assets/d66f87df-bbe6-4f2f-825c-3ca2cd70dfaa)
 
 *  Ref - > https://www.youtube.com/watch?v=DDRo29ptFwE
