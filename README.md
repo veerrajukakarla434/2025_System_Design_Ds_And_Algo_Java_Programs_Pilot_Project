@@ -1,3 +1,9 @@
+
+# AI tolls to learn better way
+
+![image](https://github.com/user-attachments/assets/c3e7fa38-3fb4-42ec-9ef0-11d616e6e265)
+
+
 # Algorithms Patterns
 
 ![image](https://github.com/user-attachments/assets/0c127d22-2d4c-4d42-99fa-68fac24b2c67)
