@@ -426,7 +426,13 @@ Solve: Sudoku solver, N-Queens problem, generating permutations.
     * Reservoir Sampling
     * Randomized Algorithms (Quickselect, Randomized QuickSort)
     * Monte Carlo and Las Vegas Algorithms
+   
+      
 # List of Data structures
+
+ ![image](https://github.com/user-attachments/assets/d66f87df-bbe6-4f2f-825c-3ca2cd70dfaa)
+
+*  Ref - > https://www.youtube.com/watch?v=DDRo29ptFwE
 
 1. Array
    * Description: A fixed-size, indexed collection of elements.
