@@ -500,6 +500,7 @@ Best for: Task scheduling, breadth-first search, buffer management
 
 Common Operations Time Complexity:
 CopyData Structure | Access | Search | Insertion | Deletion
+-------------------|--------|---------|----------|---------
 Array         | O(1)   | O(n)   | O(n)      | O(n)
 ArrayList     | O(1)   | O(n)   | O(n)      | O(n)
 LinkedList    | O(n)   | O(n)   | O(1)      | O(1)
@@ -507,7 +508,152 @@ HashMap       | O(1)   | O(1)   | O(1)      | O(1)
 HashSet       | N/A    | O(1)   | O(1)      | O(1)
 Stack         | O(n)   | O(n)   | O(1)      | O(1)
 Queue         | O(n)   | O(n)   | O(1)      | O(1)
+
 Would you like me to explain any of these data structures in more detail or provide additional examples for specific use cases?
+
+```java
+/ 1. Arrays - Fixed-size collection of elements of the same type
+public class ArrayExample {
+    public static void main(String[] args) {
+        // Declaring and initializing an array
+        int[] numbers = new int[5];
+        numbers[0] = 1;
+        numbers[1] = 2;
+        
+        // Array literal
+        String[] fruits = {"Apple", "Banana", "Orange"};
+        
+        // 2D Array
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6}
+        };
+    }
+}
+
+// 2. ArrayList - Dynamic-size array
+import java.util.ArrayList;
+
+public class ArrayListExample {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        
+        // Adding elements
+        list.add("First");
+        list.add("Second");
+        
+        // Accessing elements
+        String first = list.get(0);
+        
+        // Removing elements
+        list.remove(1);
+        
+        // Size
+        int size = list.size();
+    }
+}
+
+// 3. LinkedList - Doubly-linked list implementation
+import java.util.LinkedList;
+
+public class LinkedListExample {
+    public static void main(String[] args) {
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        
+        // Adding elements
+        linkedList.addFirst(1);  // Add at beginning
+        linkedList.addLast(2);   // Add at end
+        linkedList.add(3);       // Add at end
+        
+        // Removing elements
+        linkedList.removeFirst();
+        linkedList.removeLast();
+    }
+}
+
+// 4. HashMap - Key-value pair storage
+import java.util.HashMap;
+
+public class HashMapExample {
+    public static void main(String[] args) {
+        HashMap<String, Integer> map = new HashMap<>();
+        
+        // Adding key-value pairs
+        map.put("One", 1);
+        map.put("Two", 2);
+        
+        // Getting values
+        int value = map.get("One");
+        
+        // Checking if key exists
+        boolean hasKey = map.containsKey("One");
+        
+        // Removing entries
+        map.remove("Two");
+    }
+}
+
+// 5. HashSet - Collection of unique elements
+import java.util.HashSet;
+
+public class HashSetExample {
+    public static void main(String[] args) {
+        HashSet<String> set = new HashSet<>();
+        
+        // Adding elements (duplicates are ignored)
+        set.add("First");
+        set.add("Second");
+        set.add("First");  // Won't be added
+        
+        // Checking if element exists
+        boolean exists = set.contains("First");
+        
+        // Removing elements
+        set.remove("Second");
+    }
+}
+
+// 6. Stack - LIFO (Last In First Out) data structure
+import java.util.Stack;
+
+public class StackExample {
+    public static void main(String[] args) {
+        Stack<String> stack = new Stack<>();
+        
+        // Adding elements
+        stack.push("Bottom");
+        stack.push("Middle");
+        stack.push("Top");
+        
+        // Viewing top element without removing
+        String top = stack.peek();
+        
+        // Removing and returning top element
+        String popped = stack.pop();
+    }
+}
+
+// 7. Queue using LinkedList - FIFO (First In First Out)
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+    public static void main(String[] args) {
+        Queue<String> queue = new LinkedList<>();
+        
+        // Adding elements
+        queue.offer("First");
+        queue.offer("Second");
+        queue.offer("Third");
+        
+        // Viewing front element without removing
+        String front = queue.peek();
+        
+        // Removing and returning front element
+        String removed = queue.poll();
+    }
+}
+```
 
  ![image](https://github.com/user-attachments/assets/d66f87df-bbe6-4f2f-825c-3ca2cd70dfaa)
 
