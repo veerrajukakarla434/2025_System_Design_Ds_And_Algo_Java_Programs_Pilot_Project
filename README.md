@@ -13,6 +13,11 @@
 
 Top 100 Questions -> https://instabyte.io/p/interview-master-100
 -----------------
+
+#### Topic wise Prolems:
+
+* https://algomaster.io/practice/dsa-patterns
+
 THE ULTIMATE INTERVIEWS GUIDE
 Interview Master 100
 
