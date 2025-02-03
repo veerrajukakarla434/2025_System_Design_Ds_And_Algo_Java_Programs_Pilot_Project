@@ -16,6 +16,7 @@ Top 100 Questions -> https://instabyte.io/p/interview-master-100
 
 #### Topic wise Prolems:
 
+```console
 * https://algomaster.io/practice/dsa-patterns
 
 THE ULTIMATE INTERVIEWS GUIDE
@@ -220,7 +221,7 @@ Find Peak Element
 Find Minimum in Rotated Sorted Array [Solution]
 
 Remove Duplicates from Sorted Array
-
+```
 
 ----------------------------------------------
 ## THE ULTIMATE DSA GUIDE- Data Structure specific algorithms
