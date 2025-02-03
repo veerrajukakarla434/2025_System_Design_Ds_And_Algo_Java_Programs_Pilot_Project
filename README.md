@@ -223,134 +223,134 @@ Remove Duplicates from Sorted Array
 
 
 ----------------------------------------------
-THE ULTIMATE DSA GUIDE
-Data Structure specific algorithms
-1. Arrays
-Sorting:
+## THE ULTIMATE DSA GUIDE- Data Structure specific algorithms
 
-QuickSort: Efficient average-case time complexity (O(nlog n))
+#### 1. Arrays
+ * Sorting:
 
-MergeSort: Stable sort, useful when order matters (O(nlog n))
+    * QuickSort: Efficient average-case time complexity (O(nlog n))
 
-Searching:
+    * MergeSort: Stable sort, useful when order matters (O(nlog n))
 
-Binary Search: Fast search in sorted arrays (O(log n))
+* Searching:
 
-Two Pointers:
+   * Binary Search: Fast search in sorted arrays (O(log n))
 
-In-place manipulation, often for sorted arrays (e.g., removing duplicates)
+* Two Pointers:
 
-Sliding Window:
+  * In-place manipulation, often for sorted arrays (e.g., removing duplicates)
 
-Subarray problems, finding maximum/minimum within a window
+* Sliding Window:
 
-2. Linked Lists
-Traversal:
+  * Subarray problems, finding maximum/minimum within a window
 
-Iterate through the list, understand the node structure
+#### 2. Linked Lists
+* Traversal:
 
-Insertion/Deletion:
+   * Iterate through the list, understand the node structure
 
-At beginning, end, or at a specific position
+* Insertion/Deletion:
 
-Reversal:
+   * At beginning, end, or at a specific position
 
-In-place reversal, recursive and iterative approaches
+* Reversal:
 
-Cycle Detection:
+   * In-place reversal, recursive and iterative approaches
 
-Floyd's Tortoise and Hare algorithm
+* Cycle Detection:
 
-3. Hash Tables (Hash Maps/Sets)
-Implementation not needed. Just understand following:
+   * Floyd's Tortoise and Hare algorithm
 
-Understand how hash functions work
+#### 3. Hash Tables (Hash Maps/Sets)
+* Implementation not needed. Just understand following:
 
-Insertion/Deletion/Lookup
+* Understand how hash functions work
 
-Collision Handling
+* Insertion/Deletion/Lookup
 
-4. Trees (Binary Trees, Binary Search Trees, etc.)
-Traversal:
+* Collision Handling
 
-Inorder, Preorder, Postorder (recursive and iterative)
+#### 4. Trees (Binary Trees, Binary Search Trees, etc.)
+* Traversal:
 
-Searching:
+   * Inorder, Preorder, Postorder (recursive and iterative)
 
-Find a node with a given value (especially in BSTs)
+* Searching:
 
-5. Stacks
-Implementation not needed. Just understand following:
+   * Find a node with a given value (especially in BSTs)
 
-Push/Pop/Peek Operations
+#### 5. Stacks
+* Implementation not needed. Just understand following:
 
-6. Queues
-Implementation not needed. Just understand following:
+   * Push/Pop/Peek Operations
 
-Enqueue/Dequeue Operations
+#### 6. Queues
+* Implementation not needed. Just understand following:
 
-7. Heaps (Priority Queues)
-Implementation not needed. Just understand following:
+   * Enqueue/Dequeue Operations
 
-Insertion/Deletion (extract-min/max)
+#### 7. Heaps (Priority Queues)
+* Implementation not needed. Just understand following:
 
-Building a Heap
+   * Insertion/Deletion (extract-min/max)
 
-Top K Elements:
+   * Building a Heap
 
-Using a heap to find k largest/smallest elements
+* Top K Elements:
 
-8. Graphs
-Traversal:
+   * Using a heap to find k largest/smallest elements
 
-Breadth-First Search (BFS)
+#### 8. Graphs
+* Traversal:
 
-Depth-First Search (DFS)
+   * Breadth-First Search (BFS)
 
-Shortest Path:
+   * Depth-First Search (DFS)
 
-Dijkstra's Algorithm
+* Shortest Path:
 
-Cycle Detection:
+   * Dijkstra's Algorithm
 
-DFS
+* Cycle Detection:
 
-9. Tries
-Implement Trie from scratch
+   * DFS
 
-Insertion/Searching:
+#### 9. Tries
+* Implement Trie from scratch
 
-For words/prefixes
+   * Insertion/Searching:
 
-Autocompletion:
+   * For words/prefixes
 
-Using a trie for word suggestions
+* Autocompletion:
 
-10. Union-Find (Disjoint Set)
-Implement Union-Find from scratch
+ * Using a trie for word suggestions
 
-Find/Union Operations
+#### 10. Union-Find (Disjoint Set)
+* Implement Union-Find from scratch
 
-Cycle Detection in undirected graphs
+* Find/Union Operations
 
-General algorithms/techniques
-1. Recursion
-Defining a problem in terms of itself, often leading to elegant and concise solutions.
+* Cycle Detection in undirected graphs
 
-Solve: Factorial calculation, tree traversals, depth-first search.
+* General algorithms/techniques
+   * 1. Recursion
+     * Defining a problem in terms of itself, often leading to elegant and concise solutions.
 
-2. Dynamic Programming
-Breaking down a problem into overlapping subproblems and storing solutions to avoid recomputation.
+     * Solve: Factorial calculation, tree traversals, depth-first search.
 
-Solve: Fibonacci sequence, Knapsack problem, Longest Common Subsequence.
+  * 2. Dynamic Programming
+    * Breaking down a problem into overlapping subproblems and storing solutions to avoid recomputation.
 
-3. Greedy Algorithms
-Making locally optimal choices at each step with the hope of finding a global optimum.
+    * Solve: Fibonacci sequence, Knapsack problem, Longest Common Subsequence.
 
-Implement: Kruskal's algorithm for minimum spanning trees.
+ * 3. Greedy Algorithms
+   * Making locally optimal choices at each step with the hope of finding a global optimum.
 
-4. Backtracking
-Incrementally building solutions, exploring all possible paths, and abandoning invalid ones.
+   * Implement: Kruskal's algorithm for minimum spanning trees.
+
+ * 4. Backtracking
+  * Incrementally building solutions, exploring all possible paths, and abandoning invalid ones.
 
 Solve: Sudoku solver, N-Queens problem, generating permutations.
 ----------------------------------------------
