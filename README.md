@@ -3,6 +3,9 @@
 
 ![image](https://github.com/user-attachments/assets/c3e7fa38-3fb4-42ec-9ef0-11d616e6e265)
 
+![image](https://github.com/user-attachments/assets/4054cb92-4c15-40a0-9d9b-9e4de5fcc209)
+
+![image](https://github.com/user-attachments/assets/d15667d1-593c-4425-8310-294b3afef001)
 
 # Algorithms Patterns
 
