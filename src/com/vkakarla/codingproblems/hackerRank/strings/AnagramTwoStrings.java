@@ -13,7 +13,6 @@ public class AnagramTwoStrings {
 		scan.close();
 
 		boolean result = isAnagram(a, b);
-
 		System.out.println(result ? "Anagrams" : "Not Anagrams");
 
 	}
