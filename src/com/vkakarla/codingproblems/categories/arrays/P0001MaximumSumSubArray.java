@@ -7,7 +7,6 @@ package com.vkakarla.codingproblems.categories.arrays;
 public class P0001MaximumSumSubArray {
 
 	public static void main(String[] args) {
-
 		int array[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
 		int result = maximumSubArray(array);
 		System.out.println("Maximum contiguous sum is " + result);
