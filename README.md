@@ -1,3 +1,9 @@
+# All Pilot Projects 
+
+* https://github.com/veerrajukakarla434/2025-Java-Coding-Solutions-Pilot-Project
+* https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project
+* https://github.com/veerrajukakarla434/2025-Java-Ds-Algo-Coding-Problems-Pilot-Project
+* https://github.com/veerrajukakarla434/2025-English-Pilot-Project
 
 # AI tolls to learn better way
 
