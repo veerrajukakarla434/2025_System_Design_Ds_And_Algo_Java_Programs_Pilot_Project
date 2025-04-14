@@ -1,4 +1,4 @@
-# DS & ALGO   Whin One Year
+# DS & ALGO   With In One Year
 
 
 ![image](https://github.com/user-attachments/assets/9300a030-4a94-49ec-bea5-335efe7bf753)
