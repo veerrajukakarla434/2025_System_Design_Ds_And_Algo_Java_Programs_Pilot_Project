@@ -1,4 +1,4 @@
-# DS & ALGO
+# DS & ALGO   Whin One Year
 
 
 ![image](https://github.com/user-attachments/assets/9300a030-4a94-49ec-bea5-335efe7bf753)
@@ -27,7 +27,7 @@
 ![image](https://github.com/user-attachments/assets/4cb3b3a3-b675-4698-8cbe-c1a90b39b60f)
 
 
-
+* Refer This video for 2nd aproch  -> https://www.youtube.com/watch?v=wmpWDcWHFZY
 
 
 ![image](https://github.com/user-attachments/assets/b4e79d8e-46c7-4226-b3b2-fa7bad506353)
