@@ -1,6 +1,12 @@
 # System Design Key Concepts - 18 System Design Interview Concepts Every Engineer Must Know
 
 #### 1. Domain Name System (DNS)
+#### 2. Load Balancer
+
+
+
+
+
 
 * -> https://www.designgurus.io/blog/system-design-interview-fundamentals
     * The **Domain Name System (DNS)** serves as a fundamental component of the internet infrastructure, translating user-friendly domain names into their corresponding IP addresses.
