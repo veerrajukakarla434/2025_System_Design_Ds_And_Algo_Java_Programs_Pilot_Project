@@ -1,6 +1,12 @@
 # 1-Introduction
 
+```text
 
+Started this and complet those to understand the key concepts:
+18 System Design Interview Concepts Every Engineer Must Know.
+
+https://www.designgurus.io/blog/system-design-interview-fundamental
+```
 
 * Where the coding interview serves primarily as an assessment of your problem-solving ability, the systems design interview is a test of your engineering knowledge veiled behind the facade of an open-ended design question.
 
