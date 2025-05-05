@@ -1,3 +1,11 @@
+# System Design Key Concepts
+
+#### 1. Domain Name System (DNS)
+
+* -> https://www.designgurus.io/blog/system-design-interview-fundamentals
+
+
+
 # System Design Concepts
 
 
@@ -11,3 +19,8 @@
 #### System Design Interview Questions on
 
 * Refer -> https://blog.algomaster.io/p/how-to-answer-a-system-design-interview-problem
+
+
+
+
+
