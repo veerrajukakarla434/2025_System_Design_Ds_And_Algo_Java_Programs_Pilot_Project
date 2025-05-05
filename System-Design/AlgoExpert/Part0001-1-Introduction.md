@@ -2,7 +2,7 @@
 
 ```text
 
-Started this and complet those to understand the key concepts:
+Started this and complet those to understand the key concepts: 05/05/2025
 18 System Design Interview Concepts Every Engineer Must Know.
 
 https://www.designgurus.io/blog/system-design-interview-fundamental
