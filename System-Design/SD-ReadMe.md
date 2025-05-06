@@ -47,6 +47,10 @@
     * **Caching:** In order to minimize latency and backend load, the API Gateway caches frequently-used responses, serving them directly to clients without the need to query the backend services.
     * **Request and Response Transformation:** The API Gateway can modify requests and responses, such as converting data formats, adding or removing headers, or altering query parameters, to ensure compatibility between clients and services.
 
+![image](https://github.com/user-attachments/assets/56c09ef6-4993-4ab8-8675-1172a201cd94)
+
+* Read **Introduction to API Gateway** And Diff Between Load Balancer and API Gate Way -> https://www.designgurus.io/course-play/grokking-system-design-fundamentals/doc/introduction-to-api-gateway
+
 
 # System Design Concepts
 
