@@ -2,6 +2,7 @@
 
 ## 1. Domain Name System (DNS)
 ## 2. Load Balancer
+## 3. API Gateway
 
 
 
@@ -24,6 +25,8 @@
     * **Least Connections:** The load balancer assigns requests to the server with the fewest active connections, giving priority to less-busy servers.
     * **IP Hash:** The client's IP address is hashed, and the resulting value is used to determine which server the request should be directed to. This method ensures that a specific client's requests are consistently routed to the same server, helping maintain session persistence.
 
+![image](https://github.com/user-attachments/assets/727e2465-7c6b-4936-af08-44d42ea72b9d)
+
 * -> load balancing algorithms => https://www.designgurus.io/course-play/grokking-system-design-fundamentals/doc/load-balancing-algorithms
 *  Read All the **Pros & Corns** of each algorithm from above link
 
@@ -33,6 +36,17 @@
 
   ![image](https://github.com/user-attachments/assets/25aa85f4-5f41-42bd-bc22-2d55ad9a4b7f)
    
+#### 3. API Gateway
+
+* API Gateway is pivotal in system design - it serves as a server or service that functions as an intermediary between external clients and the internal microservices or API-based backend services of an application.
+
+* **The primary functions of an API Gateway encompass**
+    * **Request Routing:** The API Gateway directs incoming API requests from clients to the appropriate backend service or microservice, based on predefined rules and configurations.
+    * **Authentication and Authorization:** The API Gateway manages user authentication and authorization, ensuring that only authorized clients can access the services. It verifies API keys, tokens, or other credentials before routing requests to the backend services.
+    * **Rate Limiting and Throttling:** To safeguard backend services from excessive load or abuse, the API Gateway enforces rate limits or throttles requests from clients according to predefined policies.
+    * **Caching:** In order to minimize latency and backend load, the API Gateway caches frequently-used responses, serving them directly to clients without the need to query the backend services.
+    * **Request and Response Transformation:** The API Gateway can modify requests and responses, such as converting data formats, adding or removing headers, or altering query parameters, to ensure compatibility between clients and services.
+
 
 # System Design Concepts
 
