@@ -5,6 +5,7 @@
 ## 3. API Gateway
 ## 4. CDN
 ## 5. Forward Proxy vs. Reverse Proxy
+## 6. Caching: A Foundational System Design Concept
 
 
 #### 1. Domain Name System (DNS)
