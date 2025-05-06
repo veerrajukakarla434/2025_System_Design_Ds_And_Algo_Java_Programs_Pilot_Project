@@ -85,7 +85,11 @@
 ![image](https://github.com/user-attachments/assets/b1ec4419-4849-4a39-ac2d-05a6c1c888d3)
 
 #### 6. Caching: A Foundational System Design Concept
+* Cache is a high-speed storage layer positioned between the application and the original data source, such as a database, file system, or remote web service.
+* When an application requests data, the cache is checked first. If the data is present in the cache, it is returned to the application. If the data is not found in the cache, it is retrieved from its original source, stored in the cache for future use, and then returned to the application.
+*  In a distributed system, caching can occur in multiple locations, including the client, DNS, CDN, load balancer, API gateway, server, database, and more.
 
+![image](https://github.com/user-attachments/assets/40c03d74-8d95-42d6-a5e5-d769dc7ac152)
 
 
 # System Design Concepts
