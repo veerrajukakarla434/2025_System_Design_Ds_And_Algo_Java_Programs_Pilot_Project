@@ -64,10 +64,14 @@
 
   ![image](https://github.com/user-attachments/assets/71b78374-a082-4a16-880b-8a22e309860c)
 
+#### 5. Forward Proxy vs. Reverse Proxy
 
+* A **forward proxy**, also referred to as a "proxy server" or simply "proxy," is a server positioned in front of one or more client machines, acting as an intermediary between the clients and the internet. When a client machine requests a resource on the internet, the request is initially sent to the forward proxy. The forward proxy then forwards the request to the internet on behalf of the client machine and returns the response to the client machine.
+* On the other hand, a **reverse proxy** is a server that sits in front of one or more web servers, serving as an intermediary between the web servers and the internet. When a client requests a resource on the internet, the request is first sent to the reverse proxy. The reverse proxy then forwards the request to one of the web servers, which returns the response to the reverse proxy. Finally, the reverse proxy returns the response to the client.
 
+![image](https://github.com/user-attachments/assets/81a74236-014c-4047-985f-ec45013ea778)
 
-
+* **What is the difference between proxy and reverse proxy?** -> https://www.designgurus.io/answers/detail/what-is-the-difference-between-proxy-and-reverse-proxy
 
 # System Design Concepts
 
