@@ -84,6 +84,8 @@
 
 ![image](https://github.com/user-attachments/assets/b1ec4419-4849-4a39-ac2d-05a6c1c888d3)
 
+#### 6. Caching: A Foundational System Design Concept
+
 
 
 # System Design Concepts
