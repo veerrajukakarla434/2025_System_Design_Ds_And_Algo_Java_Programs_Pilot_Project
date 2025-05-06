@@ -25,8 +25,9 @@
     * **IP Hash:** The client's IP address is hashed, and the resulting value is used to determine which server the request should be directed to. This method ensures that a specific client's requests are consistently routed to the same server, helping maintain session persistence.
 
 * -> load balancing algorithms => https://www.designgurus.io/course-play/grokking-system-design-fundamentals/doc/load-balancing-algorithms
+*  Read All the **Pros & Corns** of each algorithm from above link
 
-  ![image](https://github.com/user-attachments/assets/a0d05dc8-3bb7-462b-aaf6-fee1b7ca633b)
+![image](https://github.com/user-attachments/assets/a0d05dc8-3bb7-462b-aaf6-fee1b7ca633b)
 
   ![image](https://github.com/user-attachments/assets/c9100b10-c8aa-4bba-8c7a-26038aaafa66)
 
