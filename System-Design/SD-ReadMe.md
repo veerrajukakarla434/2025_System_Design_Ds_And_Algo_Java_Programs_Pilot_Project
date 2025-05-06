@@ -74,6 +74,18 @@
 
 * **What is the difference between proxy and reverse proxy?** -> https://www.designgurus.io/answers/detail/what-is-the-difference-between-proxy-and-reverse-proxy
 
+![image](https://github.com/user-attachments/assets/f581009f-e582-47a2-b035-ceddab9d0b0b)
+
+
+![image](https://github.com/user-attachments/assets/88c3afaf-0565-4c00-b570-3cf0567ee81b)
+
+![image](https://github.com/user-attachments/assets/65cf4b3d-2735-49db-8cfb-9d50e95996ac)
+
+
+![image](https://github.com/user-attachments/assets/b1ec4419-4849-4a39-ac2d-05a6c1c888d3)
+
+
+
 # System Design Concepts
 
 
