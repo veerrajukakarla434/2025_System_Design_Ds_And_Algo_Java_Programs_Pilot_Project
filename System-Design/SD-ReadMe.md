@@ -3,9 +3,8 @@
 ## 1. Domain Name System (DNS)
 ## 2. Load Balancer
 ## 3. API Gateway
-
-
-
+## 4. CDN
+## 5. Forward Proxy vs. Reverse Proxy
 
 
 #### 1. Domain Name System (DNS)
@@ -50,6 +49,24 @@
 ![image](https://github.com/user-attachments/assets/56c09ef6-4993-4ab8-8675-1172a201cd94)
 
 * Read **Introduction to API Gateway** And Diff Between Load Balancer and API Gate Way -> https://www.designgurus.io/course-play/grokking-system-design-fundamentals/doc/introduction-to-api-gateway
+
+
+#### 4. CDN
+
+* A **Content Delivery Network (CDN)** is a distributed network of servers that store and deliver content, such as images, videos, stylesheets, and scripts, to users from locations that are geographically closer to them.
+* CDNs are designed to enhance the performance, speed, and reliability of content delivery to end-users, irrespective of their location relative to the origin server.
+
+* **Here's how CDN operates:**
+    * When a user requests content from a website or application, the request is directed to the nearest CDN server, also known as an **edge server**.
+    * If the edge server has the requested content cached, it directly serves the content to the user. This process reduces latency and improves the user experience, as the content travels a shorter distance.
+    * If the content is not cached on the edge server, the CDN retrieves it from the origin server or another nearby CDN server. Once the content is fetched, it is cached on the edge server and served to the user.
+    * **To ensure the content stays up-to-date, the CDN periodically checks the origin server for changes and updates its cache accordingly**.
+
+  ![image](https://github.com/user-attachments/assets/71b78374-a082-4a16-880b-8a22e309860c)
+
+
+
+
 
 
 # System Design Concepts
