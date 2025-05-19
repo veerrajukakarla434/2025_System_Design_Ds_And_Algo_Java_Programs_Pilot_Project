@@ -7,6 +7,7 @@
 ## 5. Forward Proxy vs. Reverse Proxy
 ## 6. Caching: A Foundational System Design Concept
 ## 7. Data Partitioning
+## 8. Database Replication: Enhancing Reliability in System Design
 
 
 #### 1. Domain Name System (DNS)
@@ -102,6 +103,19 @@
 
 ![image](https://github.com/user-attachments/assets/8555d879-baa9-4ec7-831b-ffa407aaf99d)
 
+#### 8. Database Replication: Enhancing Reliability in System Design
+
+* Database replication is a method employed to maintain multiple copies of the same database across various servers or locations. The main objective of database replication is to enhance data availability, redundancy, and fault tolerance, ensuring the system remains operational even in the face of hardware failures or other issues.
+
+* In a replicated database configuration, one server serves as the primary (or master) database, while others act as replicas (or slaves). This process involves synchronizing data between the primary database and replicas, ensuring all possess the same up-to-date information. Database replication provides several advantages, including:
+
+    * **1) Improved Performance:** By distributing read queries among multiple replicas, the load on the primary database can be reduced, leading to faster query response times.
+    * **2) **High Availability:** If the primary database experiences failure or downtime, replicas can continue to provide data, ensuring uninterrupted access to the application.
+    * **3) **Enhanced Data Protection:** Maintaining multiple copies of the database across different locations helps safeguard against data loss due to hardware failures or other disasters.
+    * **4) **Load Balancing:** Replicas can handle read queries, allowing for better load distribution and reducing overall stress on the primary database.
+
+##### What is database replication? How database replication works
+ * **Ans** Link -> https://www.techtarget.com/searchdatamanagement/definition/database-replication
 
 # System Design Concepts
 
