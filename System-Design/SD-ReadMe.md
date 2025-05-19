@@ -93,6 +93,16 @@
 ![image](https://github.com/user-attachments/assets/40c03d74-8d95-42d6-a5e5-d769dc7ac152)
 
 
+#### 7. Data Partitioning
+
+* In a database, **horizontal partitioning**, often referred to as **sharding**, entails dividing the rows of a table into smaller tables and storing them on distinct servers or database instances.
+* This method is employed to distribute the database load across multiple servers, thereby enhancing performance.
+
+* Conversely, **vertical partitioning** involves splitting the columns of a table into separate tables. This technique aims to reduce the column count in a table and boost the performance of queries that only access a limited number of columns.
+
+![image](https://github.com/user-attachments/assets/8555d879-baa9-4ec7-831b-ffa407aaf99d)
+
+
 # System Design Concepts
 
 
