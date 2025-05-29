@@ -1,6 +1,6 @@
 # System Design Key Concepts - 18 System Design Interview Concepts Every Engineer Must Know
 
-## 1. Domain Name System (DNS)
+[## 1. Domain Name System (DNS)](#1. Domain Name System (DNS)) 
 ## 2. Load Balancer
 ## 3. API Gateway
 ## 4. CDN
