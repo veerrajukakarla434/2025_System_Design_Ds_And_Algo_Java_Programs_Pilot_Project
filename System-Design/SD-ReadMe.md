@@ -1,6 +1,6 @@
 # System Design Key Concepts - 18 System Design Interview Concepts Every Engineer Must Know
 
-[## 1. Domain Name System (DNS)](#1-Domain Name System (DNS)) 
+## 1. Domain Name System (DNS)
 ## 2. Load Balancer
 ## 3. API Gateway
 ## 4. CDN
@@ -8,7 +8,7 @@
 ## 6. Caching: A Foundational System Design Concept
 ## 7. Data Partitioning
 ## 8. Database Replication: Enhancing Reliability in System Design
-## 9. Distributed Messaging Systems: Scaling Communication in System Design
+ - [Distributed Messaging Systems: Scaling Communication in System Design](#9-Distributed-Messaging-Systems-Scaling-Communication-in-System-Design)
 
 
 #### 1. Domain Name System (DNS)
@@ -118,7 +118,7 @@
 ##### What is database replication? How database replication works
  * **Ans** Link -> https://www.techtarget.com/searchdatamanagement/definition/database-replication
 
-#### 9. Distributed Messaging Systems: Scaling Communication in System Design
+#### Distributed Messaging Systems: Scaling Communication in System Design
 
 
 
