@@ -118,7 +118,7 @@
 ##### What is database replication? How database replication works
  * **Ans** Link -> https://www.techtarget.com/searchdatamanagement/definition/database-replication
 
-#### 8. Distributed Messaging Systems: Scaling Communication in System Design
+#### Distributed Messaging Systems: Scaling Communication in System Design
 
 
 
