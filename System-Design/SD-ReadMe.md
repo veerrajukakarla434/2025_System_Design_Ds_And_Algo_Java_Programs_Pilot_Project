@@ -8,7 +8,7 @@
 ## 6. Caching: A Foundational System Design Concept
 ## 7. Data Partitioning
 ## 8. Database Replication: Enhancing Reliability in System Design
- - [Distributed Messaging Systems: Scaling Communication in System Design](#9-Distributed-Messaging-Systems-Scaling-Communication-in-System-Design)
+ - [Distributed Messaging Systems: Scaling Communication in System Design](#Distributed-Messaging-Systems-Scaling-Communication-in-System-Design)
 
 
 #### 1. Domain Name System (DNS)
