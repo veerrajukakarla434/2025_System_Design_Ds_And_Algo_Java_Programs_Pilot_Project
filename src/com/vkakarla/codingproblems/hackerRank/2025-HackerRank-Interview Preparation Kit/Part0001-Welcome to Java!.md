@@ -2,6 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/fdf37491-f8a7-4a0c-895c-1da8390aa3d7)
 
+```text
 Welcome to the world of Java! In this challenge, we practice printing to stdout.
 
 The code stubs in your editor declare a Solution class and a main method. Complete the main method by copying the two lines of code below and pasting them inside the body of your main method.
@@ -22,7 +23,7 @@ Sample Output
 
 Hello, World.
 Hello, Java.
-
+```
 
 #### Solution
 ```java
