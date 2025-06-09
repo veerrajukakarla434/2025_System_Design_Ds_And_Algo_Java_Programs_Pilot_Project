@@ -24,6 +24,8 @@ public class MoveZerosToEnd {
 }
 ```
 * **Console OutPut With Explaination**
+* * When I value and J value both are same swapping will nor haapens, why becuase both values are same, When I value and J value are not same, values are swaping.
+
 ```console
 Original Array : [23, 5, 0, 1, 0, 3, 5, 0, 1, 0, 1]
 
@@ -86,3 +88,9 @@ Swaping I value and J values
 
 
 ```
+
+
+
+
+
+
