@@ -29,3 +29,22 @@
 
 
 Ref: -> https://chat.deepseek.com/a/chat/s/9896ddce-59ad-4686-aba1-31f0f8bed299
+
+```text
+I have one external service called "SDP"
+I am getting daily 10M records/documents to kafka topic1
+I am consuming from topic1 to spring boot microservice called "seg-decision" (M1 servie) and saving int MongoDB.
+Now I am reading documents from MongoDB and sending to rule engine.
+Now rule engine will give eligible documents to process, and updating MongoDB
+Now I am reading documents from MongoDB and publishing documents topic2 in spring boot microservice called "decision" (M2 Service)
+Now I am consuming from topic2 to spring boot microservice called "enrichment" (M3)
+
+For This I need MongoDB Design and Springboot code in optimized/best way
+  What I am expecting
+  
+   1) Code for reading documents from topic1 to M1 service and saving into MongoDB
+   2) Code for reading documents from Mongodb to M2 service and publishing to topic2
+   3) Generate Proper Sequentinal diagrams for eatch Level
+   Need MongoDB clooection design
+   Proper batch process design with configurations  Using Spring Boot , Kafka and MongoDB
+```
