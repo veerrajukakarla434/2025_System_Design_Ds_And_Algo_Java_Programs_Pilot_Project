@@ -33,11 +33,11 @@ Ref: -> https://chat.deepseek.com/a/chat/s/9896ddce-59ad-4686-aba1-31f0f8bed299
 ```text
 I have one external service called "SDP"
 I am getting daily 10M records/documents to kafka topic1
-I am consuming from topic1 to spring boot microservice called "seg-decision" (M1 servie) and saving int MongoDB.
+I am consuming from topic1 to spring boot microservice called M1 servie and saving int MongoDB.
 Now I am reading documents from MongoDB and sending to rule engine.
 Now rule engine will give eligible documents to process, and updating MongoDB
-Now I am reading documents from MongoDB and publishing documents topic2 in spring boot microservice called "decision" (M2 Service)
-Now I am consuming from topic2 to spring boot microservice called "enrichment" (M3)
+Now I am reading documents from MongoDB and publishing documents topic2 in spring boot microservice called M2 Service
+Now I am consuming from topic2 to spring boot microservice called M3
 
 For This I need MongoDB Design and Springboot code in optimized/best way
   What I am expecting
