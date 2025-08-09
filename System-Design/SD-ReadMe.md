@@ -1,5 +1,7 @@
 # System Design Key Concepts - 18 System Design Interview Concepts Every Engineer Must Know
 
+##### System Design Fundametals - > https://www.designgurus.io/answers/detail/system-design-fundamentals
+
 ## 1. Domain Name System (DNS)
 ## 2. Load Balancer
 ## 3. API Gateway
@@ -9,6 +11,8 @@
 ## 7. Data Partitioning
 ## 8. Database Replication: Enhancing Reliability in System Design
 ## 9. Distributed Messaging Systems: Scaling Communication in System Design
+
+
 
 #### 1. Domain Name System (DNS)
 * -> https://www.designgurus.io/blog/system-design-interview-fundamentals
