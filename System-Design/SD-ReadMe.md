@@ -1,4 +1,4 @@
-# System Design Key Concepts - 18 System Design Interview Concepts Every Engineer Must Know
+# System Design Key Concepts - 25 Fundamental System Design Concepts Engineers Must Know Before the Interview
 
 ##### System Design Fundametals - > https://www.designgurus.io/answers/detail/system-design-fundamentals
 
